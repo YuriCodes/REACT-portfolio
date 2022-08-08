@@ -30,7 +30,7 @@ body{
 
 .nav-links a:hover{
   text-decoration: underline;
-  text-decoration-color: #49b5d6;
+  text-decoration-color: #428ca3;
   text-decoration-thickness: 5px;
 }
 
@@ -47,16 +47,17 @@ p{
 }
 .remote{
   text-decoration: underline;
-  text-decoration-color: #49b5d6;
+  text-decoration-color: #428ca3;
   text-decoration-thickness: 5px;
 }
 .icon{
   padding: 5px;
 }
 hr{
-  font-size: 3rem;
+  margin-top: -5px;
+  font-size: 2em;
   width: 100px;
-  height: 400px;
+  height: 440px;
 }
 
 .desktop-no{
@@ -139,6 +140,10 @@ hr{
   text-decoration: none;
   color: #257992;
 }
+
+.italics{
+  font-style: italic;
+}
 @media screen and (max-width:800px) {
   .mobile-no{
     display: none;
@@ -146,7 +151,7 @@ hr{
   .desktop-no{
     display: block;
     font-size: 1.3em;
-    
+
   }
   .work-box:hover{
     box-shadow: none;

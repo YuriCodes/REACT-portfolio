@@ -38,18 +38,18 @@ function WorkInfo(){
 const itemData = [
    
     {
-        img: '/images/NASA.png',
-        title: 'NASA Archive',
+        img: '/images/portfoliopic.png',
+        title: 'This site you are on! ',
         author: 'YuriCodesBot',
-        description: 'Responsive Web App made with REACT. It utilizes the NASA API to render the images, descriptions and authors.',
-        link:'https://nasaphothoarchiveapp.netlify.app/',
-        repository:'https://github.com/YuriCodes/NASA-REACT-app'
+        description: 'This portfolio was made using React, Material UI, HTML5 and CSS.',
+        link: 'https://yuricodesbotdev.netlify.app/',
+        repository: 'https://github.com/YuriCodes/REACT-portfolio'
     },
     {
         img: '/images/NewsletterApp.png',
         title: 'Newsletter App',
         author: 'YuriCodesBot',
-        description: 'Responsive Web App made with REACT to fetch writing prompts from a custom made API with a predictive search bar.',
+        description: 'Responsive Web App made with React to fetch writing prompts from a custom made API with a predictive search bar.',
         link: 'https://yuricodesbotnewsletterservice.herokuapp.com/',
         repository:'https://github.com/YuriCodes/Newsletter-App'
     },
@@ -62,13 +62,14 @@ const itemData = [
         repository:'https://github.com/YuriCodes/article-ideas-app'
     },
     {
-        img: '/images/portfoliopic.png',
-        title: 'This site you are on! ',
+        img: '/images/NASA.png',
+        title: 'NASA Archive',
         author: 'YuriCodesBot',
-        description: 'This portfolio was made using REACT, Material UI, HTML5 and CSS.',
-        link: 'https://yuricodesbotdev.netlify.app/',
-        repository: 'https://github.com/YuriCodes/REACT-portfolio'
+        description: 'Responsive Web App made with React. It utilizes the NASA API to render the images, descriptions and authors.',
+        link:'https://nasaphothoarchiveapp.netlify.app/',
+        repository:'https://github.com/YuriCodes/NASA-REACT-app'
     }
+    
 ]
 
 export default WorkInfo;

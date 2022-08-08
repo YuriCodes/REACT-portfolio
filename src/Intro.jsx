@@ -15,7 +15,7 @@ function Intro(){
     return(
         <div>
         <h1 className="big-headers">Hi! I'm Yuri</h1>
-    <p className="intro-text"> I'm Full-Stack Developer with focus on <span className="deep-blue"> Front-End.</span> I'm a tireless seeker of the 'why' of things, and finding both a good and efficient way of solving problems. <br />
+    <p className="intro-text"> I'm Full-Stack Developer with focus on <span className="deep-blue"> Front-End.</span> I'm a tireless seeker of the <span className="italics"> why</span> of things, and finding both a good and efficient way of solving problems. <br />
     <br />
     I'm very passionate about writing and helping people grasp difficult concepts in an easy way. I also enjoy painting and design. I can also occasionally bake an amazing flan.
     <br />
