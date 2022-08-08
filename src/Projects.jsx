@@ -66,8 +66,8 @@ const itemData = [
         title: 'This site you are on! ',
         author: 'YuriCodesBot',
         description: 'This portfolio was made using REACT, Material UI, HTML5 and CSS.',
-        link: '',
-        repository: ''
+        link: 'https://yuricodesbotdev.netlify.app/',
+        repository: 'https://github.com/YuriCodes/REACT-portfolio'
     }
 ]
 

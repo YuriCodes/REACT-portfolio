@@ -15,8 +15,7 @@ function MobileContact(){
           display: 'flex',
           alignItems: 'center',
           flexDirection: 'row',
-          position: 'relative',
-          
+          justifyContent: 'center',
           p: 5,
           m: 1          
         }}
