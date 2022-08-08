@@ -1,0 +1,153 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Zilla Slab', serif;
+
+color: #262322
+color: #f2e5d7
+
+color: #f2e82f
+color: #162719 */
+
+body{
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8ebdd;
+  color: rgb(90, 83, 83);
+}
+
+.big-headers, .header-txt{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Zilla Slab', serif;
+
+}
+
+.nav-links a{
+  text-decoration: none;
+  font-size: 1.3em;
+  padding: 3px;
+}
+
+.nav-links a:hover{
+  text-decoration: underline;
+  text-decoration-color: #49b5d6;
+  text-decoration-thickness: 5px;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+.intro-icons{
+  color: #257992;
+  margin: 5px;
+  line-height: 2;
+}
+.intro-text{
+  font-size: 1.2em;
+}
+.remote{
+  text-decoration: underline;
+  text-decoration-color: #49b5d6;
+  text-decoration-thickness: 5px;
+}
+.icon{
+  padding: 5px;
+}
+hr{
+  font-size: 3rem;
+  width: 100px;
+  height: 400px;
+}
+
+.desktop-no{
+  display: none;
+}
+
+.desktop-contact{
+  padding: 4px;
+  color: #257992;
+}
+.deep-blue{
+  color: #257992;
+}
+.work-icons{
+  color: #257992;
+  padding: 2px;
+}
+.work-icons:hover{
+  color:#49b5d6;
+}
+.work-description{
+  font-size: 1.1em;
+  padding: 15px;
+}
+.work-title{
+  font-size: 1.5em;
+  margin: 20px;
+
+}
+.work-box{
+  padding: 5px;
+  text-align: center;
+}
+.work-box:hover{
+  box-shadow: #25799281 0px 0px 0px 2px inset, #f8d49a -10px 10px, rgba(255, 255, 255, 0.644) -20px 30px 5px 2px, #f8bc9a -32px 25px, rgba(255, 255, 255, 0.233) -40px 40px 5px 6px;
+}
+.box-shadow, .workImg{
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.workImg{
+  opacity: 0.8;
+}
+.workImg:hover{
+  opacity: 1;
+}
+.mailbox{
+  border-style: none;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color: transparent;
+  font-size: 1.5em;
+  font-family: 'Zilla Slab', serif;
+  color: rgb(90, 83, 83);
+}
+
+.mailbox:hover{
+  box-shadow: rgba(47, 47, 185, 0.5) 0px 0px 16px;
+  cursor: pointer;
+}
+.contact-header{
+  font-size: 1.8em;
+}
+.contact-text{
+  font-size: 1.2em;
+}
+.mobile-icon{
+  color: #257992;
+  padding: 2px;
+}
+
+.footer{
+  text-align: center;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 0.8em;
+
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #257992;
+}
+@media screen and (max-width:800px) {
+  .mobile-no{
+    display: none;
+  }
+  .desktop-no{
+    display: block;
+    font-size: 1.3em;
+  }
+  .work-box:hover{
+    box-shadow: none;
+  }
+}
