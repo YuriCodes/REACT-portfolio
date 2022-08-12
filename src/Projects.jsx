@@ -49,7 +49,7 @@ const itemData = [
         img: '/images/NewsletterApp.png',
         title: 'Newsletter App',
         author: 'YuriCodesBot',
-        description: 'Responsive Web App made with React to fetch writing prompts from a custom made API with a predictive search bar.',
+        description: 'App made with Node.js, Mailchimp API and Express for the back-end. Front-end made with Bootstrap.',
         link: 'https://yuricodesbotnewsletterservice.herokuapp.com/',
         repository:'https://github.com/YuriCodes/Newsletter-App'
     },
@@ -57,7 +57,7 @@ const itemData = [
         img: '/images/Techwriting.png',
         title: 'Technical Writing Ideas Generator',
         author: 'YuriCodesBot',
-        description: 'App made with Node.js, Mailchimp API and Express for the back-end. Front-end made with Bootstrap.',
+        description: 'Responsive Web App made with React to fetch writing prompts from a custom made API with a predictive search bar.',
         link: 'https://technical-writing-ideas.netlify.app/',
         repository:'https://github.com/YuriCodes/article-ideas-app'
     },
