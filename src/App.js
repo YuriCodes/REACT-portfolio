@@ -6,6 +6,8 @@ import Container from '@mui/material/Container';
 import Form from './ContactForm';
 import MobileContact from './Mobile-contact';
 import Footer from './Footer';
+import WritingInfo from './Writing';
+import VideoInfo from './Videos'
 
 function App() {
   return(
@@ -20,7 +22,9 @@ function App() {
   
    <Container maxWidth="md">
      <WorkInfo />  
-     
+     <WritingInfo />
+     <VideoInfo/>
+
     <Form />
     <MobileContact /> 
     <Footer />

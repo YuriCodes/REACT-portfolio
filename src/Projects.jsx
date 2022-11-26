@@ -6,7 +6,7 @@ import WorkCard from './WorkCard';
 function WorkInfo(){
     return(
         <Box sx={{ flexGrow: 1 }}>
-     <h1 class="big-headers">Work </h1>
+     <h1 class="big-headers">Projects </h1>
         <Grid container 
          justifyContent="center"
          alignItems="center" 
@@ -44,23 +44,23 @@ const itemData = [
         description: 'This portfolio was made using React, Material UI, HTML5 and CSS.',
         link: 'https://yuricodesbotdev.netlify.app/',
         repository: 'https://github.com/YuriCodes/REACT-portfolio'
-    },
-    {
-        img: '/images/NewsletterApp.png',
-        title: 'Newsletter App',
-        author: 'YuriCodesBot',
-        description: 'App made with Node.js, Mailchimp API and Express for the back-end. Front-end made with Bootstrap.',
-        link: 'https://yuricodesbotnewsletterservice.herokuapp.com/',
-        repository:'https://github.com/YuriCodes/Newsletter-App'
-    },
-    {
-        img: '/images/Techwriting.png',
-        title: 'Technical Writing Ideas Generator',
-        author: 'YuriCodesBot',
-        description: 'Responsive Web App made with React to fetch writing prompts from a custom made API with a predictive search bar.',
-        link: 'https://technical-writing-ideas.netlify.app/',
-        repository:'https://github.com/YuriCodes/article-ideas-app'
-    },
+     },
+    // {
+    //     img: '/images/NewsletterApp.png',
+    //     title: 'Newsletter App',
+    //     author: 'YuriCodesBot',
+    //     description: 'App made with Node.js, Mailchimp API and Express for the back-end. Front-end made with Bootstrap.',
+    //     link: 'https://yuricodesbotnewsletterservice.herokuapp.com/',
+    //     repository:'https://github.com/YuriCodes/Newsletter-App'
+    // },
+    // {
+    //     img: '/images/Techwriting.png',
+    //     title: 'Technical Writing Ideas Generator',
+    //     author: 'YuriCodesBot',
+    //     description: 'Responsive Web App made with React to fetch writing prompts from a custom made API with a predictive search bar.',
+    //     link: 'https://technical-writing-ideas.netlify.app/',
+    //     repository:'https://github.com/YuriCodes/article-ideas-app'
+    // },
     {
         img: '/images/NASA.png',
         title: 'NASA Archive',
