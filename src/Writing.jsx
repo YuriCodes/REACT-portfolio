@@ -56,7 +56,7 @@ const itemData = [
         author: 'YuriCodesBot',
         description: 'Engagement can be defined as the level of commitment users have to a company,...',
         link:'https://www.devrelx.com/post/how-to-increase-engagement-within-your-community',
-    },,
+    },
     {
         img: '/images/RegEx.png',
         title: 'Ultimate Guide to Regular Expressions (RegEx) on JavaScript',

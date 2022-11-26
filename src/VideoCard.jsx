@@ -1,6 +1,4 @@
 
-import ExitToAppIcon from '@mui/icons-material/ExitToApp';
-
 function WritingCard(props){
     return(
         <div id="Work" className="box-shadow work-box">

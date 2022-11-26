@@ -52,7 +52,7 @@ const itemData = [
         title: 'Building the first version of this REACT APP',
         author: 'YuriCodesBot',
         link:'https://www.youtube.com/watch?v=n9rAugoiW5o&t=38s',
-    },,
+    },
     {
         img: '/images/HTMLCSS.png',
         title: 'Dropdown Menu With HTML and CSS - Tutorial',
