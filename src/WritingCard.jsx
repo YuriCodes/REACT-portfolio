@@ -5,7 +5,7 @@ function WritingCard(props){
             <h3 className='header-txt deep-blue work-title'>
              <a href={props.href} target="_blank" rel="noreferrer" alt={props.alt} >{props.title} </a>
             </h3>
-            <a href={props.href} target="_blank" rel="noreferrer" alt={props.alt} ></a>
+            <a href={props.href} target="_blank" rel="noreferrer" alt="linktomore" ></a>
             <p className='work-description'>{props.description} </p>
         </div>
     )

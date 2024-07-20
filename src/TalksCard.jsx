@@ -6,7 +6,7 @@ function TalksCard(props){
             <h3 className='header-txt deep-blue work-title'>
              <a href={props.href} target="_blank" rel="noreferrer" alt={props.alt}>{props.title}</a>
             </h3>
-            <a href={props.href} target="_blank" rel="noreferrer" ></a>
+            <a href={props.href} target="_blank" rel="noreferrer" alt={props.alt} ></a>
             <p className='talk-description'>{props.description} </p>
         </div>
     )
