@@ -4,7 +4,7 @@ import {SiJavascript} from 'react-icons/si';
 import { BsBootstrap } from 'react-icons/bs';
 import {FiGithub} from 'react-icons/fi';
 import {GrReactjs} from 'react-icons/gr';
-import {DiNodejsSmall} from 'react-icons/di';
+import {DiNodejsSmall, DiPostgresql} from 'react-icons/di';
 import {SiJquery} from 'react-icons/si';
 import {BiMobileVibration} from 'react-icons/bi';
 import {AiOutlineConsoleSql} from 'react-icons/ai';
@@ -14,13 +14,14 @@ import {DiMongodb} from 'react-icons/di';
 function Intro(){
     return(
         <div>
-        <h1 className="big-headers">Hi! I'm Yuri</h1>
-    <p className="intro-text"> I'm a <span className="deep-blue">Full-Stack Developer with focus a on Front-End, Developer Relations Advocate and Technical Writer.</span> I'm a tireless seeker of the <span className="italics"> why</span> of things, and finding both a good and efficient way of solving problems. <br />
+        <h1 className="big-intro-header">I'm <a href="https://linktr.ee/YuriCodesBot" target="_blank">Yuri</a> </h1>
+    <p className="intro-text"> A <span className="deep-blue">Full-Stack Developer with focus a on Front-End, Developer Relations Advocate and Technical Writer.</span> I'm a tireless seeker of the <span className="italics"> why</span> of things, and finding both a good and efficient way of solving problems. <br />
     <br />
-    I'm very passionate about Open Source, Accessibility and all things web. I also enjoy painting and designing. I can also occasionally bake an amazing flan.
+    I'm very passionate about <a href="https://yuricodesbot.hashnode.dev/the-ultimate-contribution-guide-to-open-source" target="_blank"> Open Source</a>, Accessibility and all things web. 
     <br />
     <br />
-    I'm open for <span className="deep-blue remote"> remote opportunities. </span>
+    I'm currently working at <a href="https://supabase.com" target="_blank"> Supabase</a> as a DevRel - 
+    <br />
     </p>
 
 
@@ -32,10 +33,10 @@ function Intro(){
     <FiGithub title="GitHub" className="icon"/>
     <GrReactjs title="React" className="icon" />
     <DiNodejsSmall title="Node.js" className="icon"/>
-    <SiJquery title="jQuery" className="icon"/>
     <DiSass title="Sass" className="icon"/>
     <DiMongodb title="Mongodb" className="icon"/>
     <AiOutlineConsoleSql title="SQL" className="icon"/>
+    <DiPostgresql title="postgresql" className="icon"/>
 
     <BiMobileVibration title="Responsive Design"/>
     </h1>

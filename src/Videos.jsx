@@ -54,10 +54,10 @@ const itemData = [
         link:'https://www.youtube.com/watch?v=n9rAugoiW5o&t=38s',
     },
     {
-        img: '/images/HTMLCSS.png',
-        title: 'Dropdown Menu With HTML and CSS - Tutorial',
+        img: '/images/socialmedia (2).jpg',
+        title: 'Levering social media for personal branding - full session',
         author: 'YuriCodesBot',
-        link:'https://www.youtube.com/watch?v=-Ek00aSFyqU&t=10s',
+        link:'https://youtu.be/hZaFHwWcW00?si=dqXPjm6W0aWh7BJf',
     }
 ]
 

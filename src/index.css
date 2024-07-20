@@ -10,16 +10,24 @@ color: #162719 */
 body{
   padding: 0;
   box-sizing: border-box;
-  background-color: #f8ebdd;
-  color: rgb(90, 83, 83);
+  background-color: #f6eee2;
+  color: #6e4824;
 }
 
+body a{
+  text-decoration: none;
+  color: #2c6a7d;
+}
 .big-headers, .header-txt{
   display: flex;
   align-items: center;
   justify-content: space-between;
   font-family: 'Zilla Slab', serif;
 
+}
+
+.big-intro-header{
+  font-family: 'Zilla Slab', serif;
 }
 
 .nav-links a{
@@ -38,18 +46,14 @@ p{
   font-family: 'Montserrat', sans-serif;
 }
 .intro-icons{
-  color: #257992;
+  color: #026994;
   margin: 5px;
   line-height: 2;
 }
 .intro-text{
   font-size: 1.2em;
 }
-.remote{
-  text-decoration: underline;
-  text-decoration-color: #428ca3;
-  text-decoration-thickness: 5px;
-}
+
 .icon{
   padding: 5px;
 }
@@ -60,20 +64,38 @@ hr{
   height: 440px;
 }
 
+#talks, #writing{
+  padding: 5px;
+}
+#talks a, #writing a{
+  text-decoration: none;
+  color: #0d6c7e;
+}
+
+#talks a:hover, #writing a:hover{
+  color:rgba(47, 47, 185, 0.5)
+}
+
+.talk-description{
+  text-align: center;
+}
+
 .desktop-no{
   display: none;
 }
 
+
 .desktop-contact{
   padding: 4px;
-  color: #257992;
+  color: #0d6c7e;
 }
 .deep-blue{
-  color: #257992;
+  color: #0d6c7e;
 }
 .work-icons{
-  color: #257992;
-  padding: 2px;
+  color: #0d6c7e;
+  padding: 5px;
+
 }
 .work-icons:hover{
   color:#49b5d6;
@@ -92,10 +114,16 @@ hr{
   text-align: center;
 }
 .work-box:hover{
-  box-shadow: #25799281 0px 0px 0px 2px inset, #f8d49a -10px 10px, rgba(255, 255, 255, 0.644) -20px 30px 5px 2px, #f8bc9a -32px 25px, rgba(255, 255, 255, 0.233) -40px 40px 5px 6px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 .box-shadow, .workImg{
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.box-shadow{
+  box-shadow: rgba(3, 3, 31, 0.2) 0px 7px 29px 0px;
+
 }
 .workImg{
   opacity: 0.8;

@@ -8,6 +8,7 @@ import MobileContact from './Mobile-contact';
 import Footer from './Footer';
 import WritingInfo from './Writing';
 import VideoInfo from './Videos'
+import TalksInfo from './Talks';
 
 function App() {
   return(
@@ -21,9 +22,12 @@ function App() {
    </Container>
   
    <Container maxWidth="md">
-     <WorkInfo />  
+  
+  
      <WritingInfo />
+     <TalksInfo />
      <VideoInfo/>
+     <WorkInfo />  
 
     <Form />
     <MobileContact /> 

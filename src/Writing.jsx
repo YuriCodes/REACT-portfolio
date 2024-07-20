@@ -37,32 +37,42 @@ function WritingInfo(){
 const itemData = [
    
     {
-        img: '/images/DevRelWriting.png',
+
         title: 'The importance of documentation in the DevRel space ',
         author: 'YuriCodesBot',
         description: 'Technical writing is an important building block within any community,...',
         link: 'https://www.devrelx.com/post/the-importance-of-documentation-in-the-devrel-space',
      },
-      {
-        img: '/images/DesignRule.png',
-        title: 'The 60:30:10 color rule for web design',
-        author: 'YuriCodesBot',
-        description: 'Color plays such an important rule in the design of your websites or apps.,...',
-        link:'https://yuricodesbot.hashnode.dev/the-603010-color-rule-for-web-design',
-    },
+      
     {
-        img: '/images/Engagement.png',
         title: 'How to Increase Engagement Within Your Community',
         author: 'YuriCodesBot',
         description: 'Engagement can be defined as the level of commitment users have to a company,...',
         link:'https://www.devrelx.com/post/how-to-increase-engagement-within-your-community',
     },
     {
-        img: '/images/RegEx.png',
         title: 'Ultimate Guide to Regular Expressions (RegEx) on JavaScript',
         author: 'YuriCodesBot',
         description: 'Matching strings? Lookaheads? Flags? ,...',
         link:'https://yuricodesbot.hashnode.dev/ultimate-guide-to-regular-expressions-regex-on-javascript',
+    },
+    {
+        title: 'What even is a DevRel - Series',
+        author: 'YuriCodesBot',
+        description: 'In this series, we will cover what is being a Developer Relations Advocate ,...',
+        link:'https://yuricodesbot.hashnode.dev/series/what-is-dev-rel',
+    },
+    {
+        title: 'JavaScript for Newbies - Series',
+        author: 'YuriCodesBot',
+        description: 'In this series, we will clarify the basic concepts and ideas of JavaScript ,...',
+        link:'https://yuricodesbot.hashnode.dev/series/javascript-for-newbies',
+    },
+    {
+        title: 'Web Design for Newbies - Series',
+        author: 'YuriCodesBot',
+        description: 'In this series, we will be sharing tips, tricks and more about Web Design ,...',
+        link:'https://yuricodesbot.hashnode.dev/series/web-design-for-beginners',
     }
 ]
 
