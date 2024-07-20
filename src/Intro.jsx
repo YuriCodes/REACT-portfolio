@@ -5,7 +5,6 @@ import { BsBootstrap } from 'react-icons/bs';
 import {FiGithub} from 'react-icons/fi';
 import {GrReactjs} from 'react-icons/gr';
 import {DiNodejsSmall, DiPostgresql} from 'react-icons/di';
-import {SiJquery} from 'react-icons/si';
 import {BiMobileVibration} from 'react-icons/bi';
 import {AiOutlineConsoleSql} from 'react-icons/ai';
 import {DiSass} from 'react-icons/di';
@@ -14,10 +13,10 @@ import {DiMongodb} from 'react-icons/di';
 function Intro(){
     return(
         <div>
-        <h1 className="big-intro-header">I'm <a href="https://linktr.ee/YuriCodesBot" target="_blank" rel="noreferrer">Yuri</a> </h1>
+        <h1 className="big-intro-header">I'm <a href="https://linktr.ee/YuriCodesBot" target="_blank" rel="noreferrer" alt="yuri">Yuri</a> </h1>
     <p className="intro-text"> A <span className="deep-blue">Full-Stack Developer with focus a on Front-End, Developer Relations Advocate and Technical Writer.</span> I'm a tireless seeker of the <span className="italics"> why</span> of things, and finding both a good and efficient way of solving problems. <br />
     <br />
-    I'm very passionate about <a href="https://yuricodesbot.hashnode.dev/the-ultimate-contribution-guide-to-open-source" target="_blank" rel="noreferrer"> Open Source</a>, Accessibility and all things web. 
+    I'm very passionate about <a href="https://yuricodesbot.hashnode.dev/the-ultimate-contribution-guide-to-open-source" target="_blank" rel="noreferrer" alt="opensource"> Open Source</a>, Accessibility and all things web. 
     <br />
     <br />
     I'm currently working at <a href="https://supabase.com" target="_blank" rel="noreferrer"> Supabase</a> as a DevRel - 
