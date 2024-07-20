@@ -1,5 +1,4 @@
 
-import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 function TalksCard(props){
     return(

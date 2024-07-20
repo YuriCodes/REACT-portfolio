@@ -1,5 +1,4 @@
 
-import ExitToAppIcon from '@mui/icons-material/ExitToApp';
 
 function VideoCard(props){
     return(
